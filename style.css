@@ -85,12 +85,12 @@ html, body{
     
 }
 #btm{
-    width: 100%;
+    width: 90%;
     height: 10%;
     background-color: white;
     position: absolute;
     bottom: 5%;
-    padding: 10px 40px;
+    padding: 10px 45px;
 }
 #btm>h3{
     color: #FE7D03;
@@ -106,6 +106,7 @@ html, body{
     height: 100%;
     width: 65%;
     position: relative;
+    
 }
 
 #right>img{
@@ -119,12 +120,14 @@ html, body{
 
 #right>#center{
     width: 50%;
-    top: 40%;
-    left: 60%;
-    transform: translate(-50%, -50%);
+    height: 100%;
+    top: -8%;
+    left: 35%;
     position: absolute;
     display: flex;
     flex-direction: column;
+    align-items: start;
+    justify-content: center;
 }
 
 #center>h1{
@@ -145,7 +148,6 @@ html, body{
 }
 
 #center>#btns{
-    height: 20%;
     margin-top: 30px;
     display: flex;
     gap: 20px;
@@ -193,33 +195,33 @@ html, body{
     align-items: center;
     justify-content: center;
 }
-.shoe>img{
+#shoe>img{
     width: 105px;
 }
 
-.shoe2>img{
+#shoe2>img{
     width: 100px;
     transform: rotate(20deg);
 }
-.shoe3>img{
+#shoe3>img{
     width: 105px;
     transform: rotate(25deg);
 }
 
 #btm-r{
-    bottom: -80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-    height: 50%;
-    width: 100%;
     position: absolute;
+    height: 30%;
+    width: 100%;
     overflow: hidden;
+    border-radius: 10px;
+    bottom: -5%;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
 }
 
 #btm-r>img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
-
