@@ -22,8 +22,8 @@ anim
     ease: Expo.easeInOut,
 })
 .to(".b", {
-    delay: -1.5,
-    rotate:0,
+    delay: -2,
+    rotate:-5,
     opacity: 1,
     duration:2.5,
     ease : Expo.easeInOut,

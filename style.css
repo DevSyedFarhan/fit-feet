@@ -195,19 +195,38 @@ html, body{
     align-items: center;
     justify-content: center;
 }
+#shoe{
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
 #shoe>img{
     width: 105px;
 }
-
+#shoe:hover{
+    transform: scale(1.15);
+}
+#shoe2{
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
 #shoe2>img{
     width: 100px;
     transform: rotate(20deg);
+}
+#shoe2:hover{
+    transform: scale(1.15);
+}
+#shoe3{
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
 #shoe3>img{
     width: 105px;
     transform: rotate(25deg);
 }
-
+#shoe3:hover{
+    transform: scale(1.15);
+}
 #btm-r{
     position: absolute;
     height: 30%;
